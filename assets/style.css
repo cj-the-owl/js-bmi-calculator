@@ -1,18 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
+    
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background-color: black;
+    margin-left: 38%;
+    margin-top: 5%;
+    background-color: black; 
     color: white;
     border: 2px solid white;
     border-radius: 20px;
-    padding: 20px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 30px; 
     font-size: 20px;
+    width: 350px;
+
 }
 
 .w, .h, .c {
@@ -33,9 +41,8 @@ button:hover {
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
-#result {
-    width: 200px;
-    height: 55px;
-
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+button {
+    width: 100px;
+    height: 40px;
 }
+

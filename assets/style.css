@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.container {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.w, .h, .c {
+    padding: 5px;
+}
+
+input {
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+    padding:10px;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+
+
+button:hover {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+#result {
+    width: 200px;
+    height: 55px;
+
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}

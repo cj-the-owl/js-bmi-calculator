@@ -8,15 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div container>
-        <h1>Hello!</h1>
-        <h1>What's Your BMI?</h1>
-        <p>weight(kg)</p>
-    <input type="number" id="weight">
-    <p>height(m)</p>
-    <input type="number" id="height"><br><br>
-    <button type="button" onclick="calcbmi()">Submit</button>
-    <input type="text" id="answer">
+    <div class="container">
+
+        <div class="heading">
+            <h1>What's Your BMI?</h1>
+        </div>
+
+        <div class="w">
+            <label for="weight">Weight(kg)</label><br><br>
+            <input type="number" id="weight">
+        </div>
+
+        <div class="h">
+            <label for="height">Height(cm)</label><br><br>
+    
+        <input type="number" id="height">
+        </div>
+
+        <div class="c">
+            <button type="button" onclick="calcBmi()">Submit</button><br><br>
+            <input type="text" id="answer">
+        </div>
+        
     </div>
     
     <script src="./script/script.js"></script>

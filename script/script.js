@@ -10,8 +10,10 @@ function calcBmi() {
     }else if (bmi <=24.9 && bmi >=18.5 ) {
         document.getElementById('answer').value = bmi.toFixed(2) +' Healthy';
     }else if(bmi <=39.9 && bmi >=25.0) {
-        document.getElementById('answer').value = bmi.toFixed(2) +' -----------------------------------------------------------------------------------------------------------Overweight'
-    } 
+        document.getElementById('answer').value = bmi.toFixed(2) +'Overweight'
+    }else if (bmi >=40.0) {
+        document.getElementById('answer').value = bmi.toFixed(2) + 'Obese'
+    }    
         
     }
     
